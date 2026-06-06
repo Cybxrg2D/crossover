@@ -1,14 +1,14 @@
 #!/bin/bash
 # forked from totallynotinteresting/crossover
 
-CROSSOVER_MACOS_PATH="/Downloads/CrossOver.app/Contents/MacOS"
+CROSSOVER_MACOS_PATH="Users/venus/Downloads/CrossOver.app/Contents/MacOS"
 REPO_URL="https://github.com/everythinginitsrightplace/crossover.git"
 RAW_URL="https://raw.githubusercontent.com/everythinginitsrightplace/crossover/main"
 RELEASE_URL="https://github.com/everythinginitsrightplace/crossover/releases/latest/download/hook.dylib"
 
 if [ ! -d "$CROSSOVER_MACOS_PATH" ]; then
     echo "CrossOver.app was not found at $CROSSOVER_MACOS_PATH"
-    echo "please make sure that CrossOver.app is in /Applications/"
+    echo "please make sure that CrossOver.app is in /Downloads/"
     exit 1
 fi
 
