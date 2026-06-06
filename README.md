@@ -9,7 +9,7 @@ umm grant Terminal Full Disk Access. System Settings > Privacy & Security > Full
 uh open the terminal (cmd + space, type in terminal, and press the one that literally says "Terminal")
 
 then just run:
-`curl -fsSL https://raw.githubusercontent.com/everythinginitsrightplace/crossover/main/patch.sh | bash`
+`curl -fsSL https://raw.githubusercontent.com/Cybxrg2D/crossover/main/patch.sh | bash`
 
 then open /Applications/CrossOver.app, should all be good, i hope :p
 
