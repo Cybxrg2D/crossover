@@ -3,7 +3,7 @@
 
 CROSSOVER_MACOS_PATH="/Users/venus/Downloads/CrossOver.app/Contents/MacOS"
 REPO_URL="https://github.com/everythinginitsrightplace/crossover.git"
-RAW_URL="https://raw.githubusercontent.com/everythinginitsrightplace/crossover/main"
+RAW_URL="https://raw.githubusercontent.com/Cybxrg2D/crossover/main"
 RELEASE_URL="https://github.com/everythinginitsrightplace/crossover/releases/latest/download/hook.dylib"
 
 if [ ! -d "$CROSSOVER_MACOS_PATH" ]; then
